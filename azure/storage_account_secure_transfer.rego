@@ -31,6 +31,7 @@ resource_type = "azurerm_storage_account"
 
 default allow = false
 
-allow {
+allow [msg] {
   input.enable_https_traffic_only == true
+  msg = sprintf("Enable Secure Transfer")
 }
