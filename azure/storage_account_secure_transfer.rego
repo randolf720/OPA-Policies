@@ -33,5 +33,5 @@ default allow = false
 
 allow [msg] {
   input.enable_https_traffic_only == true
-  msg = sprintf("Enable Secure Transfer")
+  msg = sprintf("Enable Secure Transfer.")
 }
